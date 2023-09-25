@@ -1,0 +1,32 @@
+{
+  "name": "api.gesnet",
+  "version": "0.0.0",
+  "description": "API Gesnet",
+  "main": "server.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:dev": "cross-env NODE_ENV=development nodemon",
+    "husky:prepare": "husky install"
+  },
+  "keywords": [
+    "api",
+    "gesnet"
+  ],
+  "author": "Fabricio Navarrete",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "20.6.5",
+    "@typescript-eslint/eslint-plugin": "^6.7.2",
+    "@typescript-eslint/parser": "^6.7.2",
+    "cross-env": "7.0.3",
+    "eslint": "8.50.0",
+    "eslint-config-prettier": "9.0.0",
+    "husky": "8.0.3",
+    "lint-staged": "14.0.1",
+    "nodemon": "3.0.1",
+    "prettier": "3.0.3",
+    "rimraf": "5.0.1",
+    "ts-node": "10.9.1",
+    "typescript": "5.2.2"
+  }
+}
