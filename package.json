@@ -1,20 +1,18 @@
 {
-  "name": "api.gesnet",
+  "name": "ts-node-setup",
   "version": "0.0.0",
-  "description": "API Gesnet",
-  "main": "server.ts",
+  "description": "TS Node Setup Boilerplate",
+  "main": "index.ts",
   "scripts": {
     "test": "npx jest --passWithNoTests",
     "test:watch": "npx jest --watch",
     "test:staged": "npx jest --findRelatedTests",
+    "test:push": "npm run test -- --coverage",
     "build": "rimraf dist && tsc",
     "start:dev": "cross-env NODE_ENV=development nodemon",
     "husky:prepare": "husky install"
   },
-  "keywords": [
-    "api",
-    "gesnet"
-  ],
+  "keywords": [],
   "author": "Fabricio Navarrete",
   "license": "ISC",
   "devDependencies": {

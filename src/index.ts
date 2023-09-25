@@ -5,4 +5,6 @@ class Logger {
   }
 }
 
+Logger.log("hello world!");
+
 export default Logger;

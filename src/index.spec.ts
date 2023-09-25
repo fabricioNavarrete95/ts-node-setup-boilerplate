@@ -1,4 +1,4 @@
-import Logger from "./server";
+import Logger from ".";
 
 it("should log and mismatch message", () => {
   const message = "hello world!";
