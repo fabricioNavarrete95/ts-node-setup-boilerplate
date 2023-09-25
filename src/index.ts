@@ -1,10 +1,3 @@
-class Logger {
-  static log(message: string) {
-    console.log(message);
-    return message;
-  }
-}
+import { Person } from "@/path/nested/other/Person";
 
-Logger.log("hello world!");
-
-export default Logger;
+new Person().sayHello("hello world!");

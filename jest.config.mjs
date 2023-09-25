@@ -6,7 +6,7 @@ export default {
   transform: {
     ".+\\.ts$": "ts-jest"
   },
-  moduleMapper: {
-    "^@/(.*)$": "<rootDir>/src/$1"
+  moduleNameMapper: {
+    "@/(.*)": "<rootDir>/src/$1"
   }
 };
