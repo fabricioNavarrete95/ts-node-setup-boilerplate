@@ -2,6 +2,6 @@
   "*.ts": [
     "npx eslint 'src/**' --fix",
     "npx prettier --check 'src/**'",
-    "npm run test:staged"
+    "npx vitest related src/**/*.(test|spec).ts --run"
   ]
 }

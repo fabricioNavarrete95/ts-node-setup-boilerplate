@@ -1,3 +1,5 @@
+import { expect, it } from "vitest";
+
 import { Person } from "@/path/nested/other/Person";
 
 it("should log and mismatch message", () => {
