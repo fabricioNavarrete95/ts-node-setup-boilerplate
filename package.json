@@ -8,7 +8,8 @@
     "test:watch": "npx jest --watch",
     "test:staged": "npx jest --findRelatedTests",
     "test:push": "npm run test -- --coverage",
-    "build": "rimraf dist && tsc",
+    "build": "npx rimraf dist && tsc",
+    "start": "node dist/index.js",
     "start:dev": "cross-env NODE_ENV=development nodemon",
     "husky:prepare": "husky install"
   },
